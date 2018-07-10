@@ -47,3 +47,8 @@ vi:
       title_2: "Trang chủ"
       title_3: "Trợ giúp"
       title_4: "Đăng nhập"
+  users:
+    new:
+      title: "Đăng ký"
+      h1: "Đăng ký"
+      p: "Đây sẽ là trang đăng ký cho người dùng mới"
