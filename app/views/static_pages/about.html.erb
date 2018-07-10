@@ -1,8 +1,13 @@
 <% provide :title, t(".title") %>
-    <%= link_to "English", locale:"en" %>
-    <%= link_to "Vietnamese", locale:"vi" %>    
-    <h1><%= t ".about" %></h1>
-    <p>
-      <%=t ".content" %>
-    </p>
- 
+<h1><%= t ".h1_tag" %></h1>
+<p>
+  <%= t ".content_1" %>
+  <%= link_to t(".title_1"), "http://www.railstutorial.org/" %>
+  <%= t ".content_2" %>
+  <%= link_to "http://www.railstutorial.org/book" book %>
+  <%= t ".content_3" %>
+  <%= link_to t(".title_2"), "http://screencasts.railstutorial.org/"  %>
+  <%= t ".content_4" %>
+  <%= link_to t(".title_3"), "http://rubyonrails.org/" %>.
+  <%= t ".content_5" %>
+</p>

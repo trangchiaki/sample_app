@@ -1,8 +1,14 @@
 <% provide :title, t(".title") %>
-    <%= link_to "English", locale:"en" %>
-    <%= link_to "Vietnamese", locale:"vi" %>
-    <h1><%= t ".sample_app" %></h1>
-    <p>
-      <%= t ".content" %>
-    </p>
-  
+<div class="center jumbotron">
+  <h1><%= t("static_pages.home.h1_tag") %></h1>
+  <h2>
+      <%= t ".h2_tag_1" %>
+      <%= link_to t(".title_1"), "http://www.railstutorial.org/" %>
+      <%= t ".h2_tag_1" %>
+  </h2>
+
+  <%= link_to t(".link_to"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+  <%= link_to image_tag("rails.png", alt: "Rails logo"), "http://rubyonrails.org/" %>
+  <%= link_to image_tag("kitten.jpg", alt: "Cat image"), "http://cdn.learnenough.com/" %>

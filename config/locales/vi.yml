@@ -1,32 +1,49 @@
 vi:
- base_title :
-        ruby: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
- static_pages:
+  base_title :
+    ruby: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  static_pages:
     home:
       title: "Trang chủ"
       sample_app: "Ứng dụng mẫu"
-      content: "Đây là trang chủ cho <a href="http://www.railstutorial.org/"> Hướng dẫn Ruby on Rails </a> ứng dụng mẫu. "
+      link_to: "Đăng ký ngay!"
+      h1_tag: "Chào mừng bạn đến với Ứng dụng mẫu"
+      h2_tag_1: "Đây là trang chủ cho"
+      h2_tag_2: "ứng dụng mẫu."
+      title_1: "Hướng dẫn Ruby on Rails"
     help:
-       title: "Trợ giúp "
-       help: " Trợ giúp "
-       content: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
-                 <a href="http://www.railstutorial.org/help">Rails Tutorial help page</a>.
-                 T Để được trợ giúp về ứng dụng mẫu này, hãy xem
-                 <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
-                 book</a>."
+      title: "Trợ giúp "
+      help : "Trợ giúp "
+      content_1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      content_2: "Để được trợ giúp về ứng dụng mẫu này, hãy xem "
+      title_1: "Hướng dẫn Ruby on Rails"
+      title_2: "Trang trợ giúp Hướng dẫn Rails"
     about:
-       title: "Khác"
-       about: "Khác"
-       content: "<a href="http://www.railstutorial.org/"><em>Ruby on Rails
-                 Hướng dẫn </ em> </a> là một
-                 <a href="http://www.railstutorial.org/book">book</a> and
-                 <a href="http://screencasts.railstutorial.org/">screencast series</a>
-                 để dạy phát triển web với
-                 <a href="http://rubyonrails.org/">Ruby on Rails</a>.
-                   Đây là ứng dụng mẫu cho hướng dẫn."
+      title: "Về trang"
+      about: "Về trang"
+      content_1: ""
+      content_2: "là một "
+      content_3: "và"
+      content_4: "to teach web development with"
+      content_5: "Đây là một ứng dụng mẫu cho hướng dẫn."
+      title_1: "Hướng dẫn Ruby on Rails"
+      title_2: "screencast series"
+      title_3: "Ruby on Rails"
     contact:
-       title: "Contact"
-       contact: "contact"
-       content: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại :
-                 <a href="http://www.railstutorial.org/contact">contact page</a>. "
- 
+      title: "Liên hệ "
+      contact: " liên hệ "
+      content: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
+      title_1: "Trang liên hệ "
+  layouts:
+    footer:
+      small_1: ""
+      small_2: "bởi"
+      title_1: "Hướng dẫn Ruby on Rails"
+      title_2: "Michael Hartl"
+      title_3: "Tin tức "
+      li_1: "Về trang"
+      li_2: "Liên hệ "
+    header:
+      title_1: "Ứng dụng mẫu"
+      title_2: "Trang chủ"
+      title_3: "Trợ giúp"
+      title_4: "Đăng nhập"
